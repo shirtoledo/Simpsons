@@ -1,0 +1,95 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: #f6f6f6;
+    border: 5px solid black;
+    width: 99%;
+}
+
+header{
+    width: 100%;
+    height: 25%;
+}
+
+.titulo1{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 90px;
+    font-family: fangsong;
+    border-bottom: 1px solid black;
+}
+
+.daily{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 1px solid black;
+}
+
+.tituloNoticia{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contenido{
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: row;
+}
+
+.angry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: system-ui;
+    margin-left: 20%;
+    margin-right: 5%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.parrafos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top: 5px;
+}
+
+.derecha{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.caption{
+    font-size: smaller;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
